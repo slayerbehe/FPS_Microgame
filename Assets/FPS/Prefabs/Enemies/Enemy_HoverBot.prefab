@@ -183,7 +183,6 @@ MonoBehaviour:
     m_NumColorKeys: 4
     m_NumAlphaKeys: 2
   FlashOnHitDuration: 0.2
-  DamageTick: {fileID: 8300000, guid: a7fae22399a6e1d448dc0dd2210f1dac, type: 3}
   DeathVfx: {fileID: 8950624839484268180, guid: 2a8f5052fe50f7b41b17149abb0f7414,
     type: 3}
   DeathVfxSpawnPoint: {fileID: 381893446485871685}
@@ -216,14 +215,8 @@ MonoBehaviour:
   - {fileID: 6104096765092005263}
   - {fileID: 1407167163009738010}
   - {fileID: 8934028655093144013}
-  OnDetectSfx: {fileID: 8300000, guid: 25722734eeccba042a18e26e376ca542, type: 3}
-  alertSfx: {fileID: 6418180475301049370, guid: 3c72ce82551af53439ae67eee6ca04d5,
-    type: 2}
   alertSource: {fileID: 2728701690181728318}
   damageSource: {fileID: 7795378780609669577}
-  MovementSound: {fileID: 8300000, guid: 9e4c5bde3729dd14eb49fdaacd029b7d, type: 3}
-  hoverSound: {fileID: 6418180475301049370, guid: 1731ab2cc0f40774fb36a7b81b4c3806,
-    type: 2}
   PitchDistortionMovementSpeed:
     Min: 1
     Max: 1.5
@@ -1035,7 +1028,7 @@ MonoBehaviour:
   MuzzleFlashPrefab: {fileID: 3930201484039205849}
   UnparentMuzzleFlash: 0
   ShootSfx: {fileID: 8300000, guid: a56e3c9f90e17894eb1625f603eceb54, type: 3}
-  laserSFX: {fileID: 6418180475301049370, guid: 29b131d5c658e634daf5bd3167020e0f,
+  laserSFX: {fileID: 6418180475301049370, guid: 788628f0785428a47b7c5378c0be31a2,
     type: 2}
   ChangeWeaponSfx: {fileID: 0}
   UseContinuousShootSound: 0
@@ -1067,7 +1060,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 20
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -1100,7 +1093,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.5
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0

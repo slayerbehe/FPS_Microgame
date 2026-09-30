@@ -219,7 +219,8 @@ MonoBehaviour:
     type: 3}
   UnparentMuzzleFlash: 0
   ShootSfx: {fileID: 8300000, guid: 0f72fccc77e4b4c3ebae266d6ed59c5a, type: 3}
-  laserSFX: {fileID: 0}
+  laserSFX: {fileID: 6418180475301049370, guid: c38a6e7aaacd52c44938d75b1e3de5a2,
+    type: 2}
   ChangeWeaponSfx: {fileID: 8300000, guid: 7b83d61917ac1224f942a0609b1221f2, type: 3}
   UseContinuousShootSound: 0
   ContinuousShootStartSfx: {fileID: 0}
@@ -291,7 +292,8 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   OverheatingMaterial: {fileID: 2100000, guid: 0c55f53a7bb3c354ababeb18b89c2fce, type: 2}
   CoolingCellsSound: {fileID: 0}
-  coolingCellsSound: {fileID: 0}
+  coolingCellsSound: {fileID: 6418180475301049370, guid: 1ee9b7cd13173094194ae5a4d426e959,
+    type: 2}
   AmmoToVolumeRatioCurve:
     serializedVersion: 2
     m_Curve:
