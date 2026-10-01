@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-6939087548815421188
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Alarm_Short-001_{-6939087548815421188}
+  m_AudioClip: {fileID: 8300000, guid: 286e6ccd7399d0147b07625aeed41ee5, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5576407668471071690
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Alarm_Short-003_{-5576407668471071690}
+  m_AudioClip: {fileID: 8300000, guid: f835e885942119840b3aba527ff867e7, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2904697807018988188
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Alarm_Short-006_{-2904697807018988188}
+  m_AudioClip: {fileID: 8300000, guid: a0b9064541e640d4eac882bd99d05a7d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-1499242297672937378
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Alarm_Short-002_{-1499242297672937378}
+  m_AudioClip: {fileID: 8300000, guid: 54aaaa683f68ea54cb47e354b710799c, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &3212955848972226960
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Alarm_Short-005_{3212955848972226960}
+  m_AudioClip: {fileID: 8300000, guid: 23b51ea1ae1d18b4cbffa0d30ec59ec2, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &6125172077639266217
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Alarm_Short-004_{6125172077639266217}
+  m_AudioClip: {fileID: 8300000, guid: 0dd8997d303919d4890bc28994d59dc5, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pick-upHealth_SFX
+  m_Volume: 0
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: -0.58608055, y: 0}
+  m_PitchRandomizationRange: {x: -158.24171, y: 167.03296}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -6939087548815421188}
+  - {fileID: -1499242297672937378}
+  - {fileID: -5576407668471071690}
+  - {fileID: 6125172077639266217}
+  - {fileID: 3212955848972226960}
+  - {fileID: -2904697807018988188}
+  m_AvoidRepeatingLast: 2
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 1
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0

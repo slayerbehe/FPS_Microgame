@@ -1,23 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1233149941 &-3529405780135367149
+--- !u!1233149941 &-4111317668144470387
 AudioContainerElement:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SFX_Laser_Complex-001_{-3529405780135367149}
-  m_AudioClip: {fileID: 8300000, guid: 613a1cea75d881340847dc19bd7f142c, type: 3}
+  m_Name: SFX_Explosion_Far-003_{-4111317668144470387}
+  m_AudioClip: {fileID: 8300000, guid: a1122f73ee3318b45a5643fc770e2276, type: 3}
   m_Volume: 0
   m_Enabled: 1
---- !u!1233149941 &6071596999986749499
+--- !u!1233149941 &-2262025164754924882
 AudioContainerElement:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SFX_Laser_Complex-002_{6071596999986749499}
-  m_AudioClip: {fileID: 8300000, guid: 5b64fa20441c9b84a919fde63021f48e, type: 3}
+  m_Name: SFX_Explosion_Far-001_{-2262025164754924882}
+  m_AudioClip: {fileID: 8300000, guid: ae1c94ba5ad61894c914e506030c5402, type: 3}
   m_Volume: 0
   m_Enabled: 1
 --- !u!1307931743 &6418180475301049370
@@ -26,35 +26,35 @@ AudioRandomContainer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Bot_LasershotSFX
+  m_Name: Bot_DeathSFX
   m_Volume: 0
-  m_Pitch: -808
+  m_Pitch: 297
   m_AutomaticTriggerTime: 0
   m_LoopCount: 1
-  m_VolumeRandomizationRange: {x: -1.1721611, y: 0}
-  m_PitchRandomizationRange: {x: -312.0878, y: 0}
+  m_VolumeRandomizationRange: {x: -1.7582417, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 782.4176}
   m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
   m_LoopCountRandomizationRange: {x: 0, y: 0}
   m_Elements:
-  - {fileID: -3529405780135367149}
-  - {fileID: 6071596999986749499}
-  - {fileID: 7372038696894248261}
+  - {fileID: -2262025164754924882}
+  - {fileID: 6420887369682466120}
+  - {fileID: -4111317668144470387}
   m_AvoidRepeatingLast: 1
   m_PlaybackMode: 2
   m_TriggerMode: 0
   m_AutomaticTriggerMode: 1
-  m_LoopMode: 0
+  m_LoopMode: 2
   m_VolumeRandomizationEnabled: 1
   m_PitchRandomizationEnabled: 1
   m_AutomaticTriggerTimeRandomizationEnabled: 0
   m_LoopCountRandomizationEnabled: 0
---- !u!1233149941 &7372038696894248261
+--- !u!1233149941 &6420887369682466120
 AudioContainerElement:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SFX_Laser_Complex-003_{7372038696894248261}
-  m_AudioClip: {fileID: 8300000, guid: 8d5c52b55b484e74ea0624761989d0c3, type: 3}
+  m_Name: SFX_Explosion_Far-002_{6420887369682466120}
+  m_AudioClip: {fileID: 8300000, guid: 11ef664f1f0e8f742932874d171e7e81, type: 3}
   m_Volume: 0
   m_Enabled: 1
